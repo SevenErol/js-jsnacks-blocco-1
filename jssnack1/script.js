@@ -2,9 +2,9 @@
 // Il software stampa il maggiore.
 
 
-const numberOne = prompt("Inserisci il primo numero");
+const numberOne = Number(prompt("Inserisci il primo numero"));
 
-const numberTwo = prompt ("Inserisci il secondo numero");
+const numberTwo = Number(prompt ("Inserisci il secondo numero"));
 
 const visualElement = document.querySelector("h1");
 
