@@ -14,9 +14,9 @@ if ( firstString.length > secondString.length) {
 
     console.log(firstString);
 
-    visualElementShort.innerHTML = `la frase più cort è: ${secondString}`;
+    visualElementLong.innerHTML = `la frase più corta è: ${secondString}`;
 
-    visualElementLong.innerHTML = `la frase più lunga è: ${firstString}`;
+    visualElementShort.innerHTML = `la frase più lunga è: ${firstString}`;
 
 } else if (firstString.length < secondString.length) {
 
