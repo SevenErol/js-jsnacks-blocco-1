@@ -8,7 +8,7 @@ const secondString = prompt("inserisci la seconda frase");
 
 const visualElementLong = document.getElementById("longer");
 
-const visualElementShort = documnet.getElementById("shorter");
+const visualElementShort = document.getElementById("shorter");
 
 if ( firstString.length > secondString.length) {
 
