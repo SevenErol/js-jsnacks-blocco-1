@@ -6,19 +6,25 @@ const firstString = prompt("Inserisci la prima frase");
 
 const secondString = prompt("inserisci la seconda frase");
 
-const visualElement = document.querySelector("h1");
+const visualElementLong = document.getElementById("longer");
+
+const visualElementShort = documnet.getElementById("shorter");
 
 if ( firstString.length > secondString.length) {
 
     console.log(firstString);
 
-    visualElement.innerHTML = `la frase più lunga è: ${firstString}`;
+    visualElementShort.innerHTML = `la frase più cort è: ${secondString}`;
+
+    visualElementLong.innerHTML = `la frase più lunga è: ${firstString}`;
 
 } else if (firstString.length < secondString.length) {
 
     console.log(secondString);
 
-    visualElement.innerHTML = `la frase più lunga è: ${secondString}`;
+    visualElementLong.innerHTML = `la frase più corta è: ${firstString}`;
+
+    visualElementShort.innerHTML = `la frase piu lunga è: ${secondString}`;
 
 } else if (firstString.length === secondString.length) {
 
