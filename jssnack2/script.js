@@ -30,6 +30,6 @@ if ( firstString.length > secondString.length) {
 
     console.log("Le due frasi sono lunghe uguali");
 
-    visualElement.innerHTML = "Le due frasi sono lunghe uguali";
+    visualElementLong.innerHTML = "Le due frasi sono lunghe uguali";
 
 }
